@@ -25,7 +25,7 @@ public class MoviePosterManager {
     public String[] findAll() {
         return movies;
     }
-// Возврат ровно лимит
+// Возврат лимита
     public String[] findLast() {
         int resultLength;
         if (movies.length < limit) {
